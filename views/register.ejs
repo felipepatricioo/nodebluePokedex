@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pokémon register</title>
+</head>
+<body>
+    <header class="back">
+        <a href="http://localhost:3000" >
+            <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+        </a>
+    </header>
+    <h1>Pokedex Register</h1>
+    <div>
+    <form  action="/register" method="POST">
+        <label for="inputPokemon">Insert the name of your Pokémon or his number!</label>
+        <input type="text" placeholder="Insert the name of your Pokémon" name="name" id="inputPokemon" autocomplete="off" class="FORM" required> 
+    </div>
+        <button type="submit"> Add</button>
+    </form>
+</body>
+<script src="/views/script.js"></script>
