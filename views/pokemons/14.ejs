@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ivysaur</title>
+</head>
+<body>
+  <header class="back">
+    <a href="/" >
+        <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+    </a>
+</header>
+    <section>
+        <a href="/<% kakuna.numero %>"  target="_blank" >
+        <img src="<%= kakuna.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
+      </a>
+        <p><%= "Name: " + kakuna.name %></p>
+        <p><%= "Type: " + kakuna.type %></p>
+        <p><%= "Description: " + kakuna.descricao %></p>
+        <p><%= "Height: " + kakuna.altura %></p>
+        <p><%= "Weight: " + kakuna.peso %></p>
+        <p><%= "Category: " + kakuna.categoria %></p>
+        <p><%= "Hability: " + kakuna.habilidade %></p>
+
+    </section>
+</body>

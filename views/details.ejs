@@ -11,13 +11,13 @@
 </head>
 <body>
     <header class="back">
-        <a href="http://localhost:3000" >
+        <a href="/" >
             <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
         </a>
     </header>
     <div> 
         <% pokedex.forEach(itemPokedex => { %>
-            <a href=" <% itemPokedex.details %>"  target="_blank" >
+            <a href="/details/<%= itemPokedex.numero %>" >
             <img src="<%= itemPokedex.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
             </a>
             <p><%= "Name: " + itemPokedex.name %></p>

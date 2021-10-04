@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Bulbasaur</title>
+</head>
+<body>
+  <header class="back">
+    <a href="/" >
+        <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+    </a>
+</header>
+    <section>
+        <a href="/<% nidorino.numero %>"  target="_blank" >
+        <img src="<%= nidorino.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
+      </a>
+        <p><%= "Name: " + nidorino.name %></p>
+        <p><%= "Type: " + nidorino.type %></p>
+        <p><%= "Description: " + nidorino.descricao %></p>
+        <p><%= "Height: " + nidorino.altura %></p>
+        <p><%= "Weight: " + nidorino.peso %></p>
+        <p><%= "Category: " + nidorino.categoria %></p>
+        <p><%= "Hability: " + nidorino.habilidade %></p>
+
+    </section>
+</body>

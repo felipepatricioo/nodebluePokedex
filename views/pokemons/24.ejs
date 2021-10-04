@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Bulbasaur</title>
+</head>
+<body>
+  <header class="back">
+    <a href="/" >
+        <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+    </a>
+</header>
+    <section>
+        <a href="/<% arbok.numero %>"  target="_blank" >
+        <img src="<%= arbok.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
+      </a>
+        <p><%= "Name: " + arbok.name %></p>
+        <p><%= "Type: " + arbok.type %></p>
+        <p><%= "Description: " + arbok.descricao %></p>
+        <p><%= "Height: " + arbok.altura %></p>
+        <p><%= "Weight: " + arbok.peso %></p>
+        <p><%= "Category: " + arbok.categoria %></p>
+        <p><%= "Hability: " + arbok.habilidade %></p>
+
+    </section>
+</body>

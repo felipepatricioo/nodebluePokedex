@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ivysaur</title>
+</head>
+<body>
+  <header class="back">
+    <a href="/" >
+        <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+    </a>
+</header>
+    <section>
+        <a href="/<% pidgey.numero %>"  target="_blank" >
+        <img src="<%= pidgey.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
+      </a>
+        <p><%= "Name: " + pidgey.name %></p>
+        <p><%= "Type: " + pidgey.type %></p>
+        <p><%= "Description: " + pidgey.descricao %></p>
+        <p><%= "Height: " + pidgey.altura %></p>
+        <p><%= "Weight: " + pidgey.peso %></p>
+        <p><%= "Category: " + pidgey.categoria %></p>
+        <p><%= "Hability: " + pidgey.habilidade %></p>
+
+    </section>
+</body>

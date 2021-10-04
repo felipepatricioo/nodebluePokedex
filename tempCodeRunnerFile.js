@@ -1,1 +1,1 @@
-details
+9

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Bulbasaur</title>
+</head>
+<body>
+  <header class="back">
+    <a href="/" >
+        <img src="/imgs/pokedexlogo.png" style="width: 140px;height: 50px">
+    </a>
+</header>
+    <section>
+        <a href="/<% ninetales.numero %>"  target="_blank" >
+        <img src="<%= ninetales.image %>" class="pokemonIndex" alt="registered-Pokemon"/>
+      </a>
+        <p><%= "Name: " + ninetales.name %></p>
+        <p><%= "Type: " + ninetales.type %></p>
+        <p><%= "Description: " + ninetales.descricao %></p>
+        <p><%= "Height: " + ninetales.altura %></p>
+        <p><%= "Weight: " + ninetales.peso %></p>
+        <p><%= "Category: " + ninetales.categoria %></p>
+        <p><%= "Hability: " + ninetales.habilidade %></p>
+
+    </section>
+</body>
